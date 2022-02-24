@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  /*style unordered list*/
+  ul{list-style: none;}
+  /*style icon in general*/
+  i.fas{
+    font-size: 1.5em;
+    padding: 5px;
+    margin-right: 15px;
+    color: rgb(50 53 149);
+  }
+  /* Style for header*/
+  .header {
+    background: linear-gradient(to top, #669999 0%, #ccccff 68%);
+    padding: 50px 150px;
+    /*min-height: 500px;*/
+  }
+  .sub_container{
+    background: linear-gradient(to bottom, #669999 0%, #99ccff 95%);
+    background-attachment: fixed;
+    padding: 25px 0px 80px;
+  }
+  /*styles for headers*/
+  h1 , h2{ /* same styles for h1 and h2*/
+    text-align: center; 
+    padding: 20px;
+    font-style: oblique;
+    font-family: serif;
+  }
+  h1{ /*margin-top: 120px;*/ color: rgb(250, 250, 250); font-size: 3em;}
+  h2{font-size: 2.5em;}
+   
+  /*styles header text*/
+  .header-text{
+    background: rgb(162 165 169 / 50%);
+    padding: 50px;
+    text-align: center;
+    min-height: 400px;
+    margin: 15px auto;
+  }
+  .profile-pic{width:auto; height:300px;}
+  /*Style for menu*/
+  .menu {
+    box-shadow: 7px 9px 15px 10px rgb(102 153 153 / 40%);
+    padding: 12px;
+    text-align: center;
+  }
+  .menu a {
+    padding:20px;
+    text-decoration: none;
+    color:black;
+    line-height: 40px;
+  }
+  .menu a.active{
+    font-weight: bold;
+    border: #bddcd3 solid;
+  }
+  .menu a:hover{
+    background-color: #bddcd3;
+    font-style: italic;
+    font-weight: bold;
+  }
+  /*style container*/
+  .container{overflow: auto;margin-top: 100px;}
+  /*Style for contents*/
+  #aboutme {min-height: 450px;}
+  .main {
+    float: right;
+    width: 60%;
+    padding: 15px;
+  }
+  .lista a{
+    text-decoration: none;
+    color: black;
+  }
+  .lista li{font-size: 1.2em;}
+  .img-aboutme {
+    width: 25%;
+    float: right;
+    /*margin: 0px 0px 0px 150px;*/
+  }
+  img{border-radius: 20px;}
+  .p_mi{
+    padding: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+  .button_mi{
+    padding: 15px;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #b7e8e2;
+    border-radius: 4px;
+    border: none;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  /*mismo estilo para formacion laboral y contacto*/
+  .section-formacion,.section-laboral,.section-contact{
+    width: 60%;
+    margin: 5% 20% 0 20%;
+    min-height: 400px;
+    background: #ffffff;
+  }
+  /*style section formacion*/
+  .section-formacion{
+    border-left: rgb(80, 80, 238) solid;
+    border-radius: 15px;
+    box-shadow:5px 5px 15px 10px rgb(80  80 238 / 34%);
+    border-width: 0px 0px 0px 20px;
+  }
+  .formacion-img{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 75px -25px 0;
+  }
+  /*experiencia laboral*/
+  .section-laboral p{
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    color: white; 
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .exp-1 {width: 100%; background-color: #4CAF50; float:left;border-radius: 35px;}
+  .sub-acad{padding: 25px;}
+  .sub-acad hr{   
+    width: 70%;
+    margin: 15px;
+  }
+  .section-trabajo,.empty{background-color:rgba(183, 206, 231, 0.15); min-height: 150px;}
+  /*style section trabajos*/
+  .section-laboral{
+    border-right: rgb(53, 240, 131) solid;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow:0px 0px 30px rgb(53 240 131 / 81%);;
+    border-width: 0px 20px 0px 0px;
+    padding: 50px;
+  }
+  .li-trabajos{padding: 50px;}
+  .li-trabajos p{
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .trabajos {width: 100%; background-color: #668f99bb;border-radius: 10px;}
+  .trabajos-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+  
+  /*style section contactos*/
+  .sub-caja-contact {padding: 50px; background: linear-gradient(to bottom, #669999 0%, #99ccff 95%);}
+  .section-contact{
+    margin-top: -150px;
+    min-height: 350px;
+    text-align: center;
+    border-top: rgb(51, 204, 204) solid;
+    border-radius: 120px 30px;
+    box-shadow: 5px 5px 20px 15px rgb(51 204 204 / 60%);
+    border-width: 20px 0px 0px 0px;
+  }
+  .contact-info {
+    float: left;
+    margin: auto;
+    padding: 50px;
+    border-right: rgb(51, 204, 204) solid;
+  }
+  /*styles formulario contacto*/
+  .form img{width: 350px;}
+  label {padding: 15px;font-size: 1.2em;}
+  .box{width: 30%;height: 40px;}
+  /*styles iconos redes sociales*/
+  i.fab{
+    font-size: 2.5em;
+    padding: 8px;
+  }
+  i.fab.fa-linkedin {color: rgb(33,115,205);}
+  i.fab.fa-youtube-square {color: rgb(255, 0, 0);}
+  i.fab.fa-facebook-square {color: rgb(26,119,240);}
+  i.fab.fa-twitter {color: rgb(29, 161, 242);}
+  i.fab.fa-instagram {color: rgb(225,48,108);}
+  /*i.fab.fa-github{color: rgb(8, 8, 8);}*/
+  
+  /*styles button contacto*/
+  .button {
+    border-radius: 4px;
+    background-color: #4eecab;
+    border: none;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  a{text-decoration: none;}
+  .button:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+  /*styles footer*/
+  footer{
+    padding: 20px;
+    text-align:center;
+    font-size: 1.1em;
+  }
+  
+  /*media queries*/
+  /*ventana del navegador 600 px*/
+  @media only screen and (max-width:600px) {
+    .header {padding: 10px;}
+    .header-text {background: rgb(58 59 62 / 45%);padding: 8px;margin: auto; }
+    .container {margin-top: 30px;}
+    .menu {display: grid;}
+    .menu a {padding: 0px;}
+    .main {width: 100%;}
+    .lista li {font-size: 17px;}
+    .img-aboutme {float: none; margin-left:90px; }
+    .section-formacion, .section-laboral, .section-contact {width: 100%; margin: 0px 0px 30px 0px;}
+    .section-contact {margin-top: -150px; border-radius: 65px;}
+    .contact-info {padding: 30px;height: auto;border-right: none;}
+    .form img{width: 235px;}
+  }
