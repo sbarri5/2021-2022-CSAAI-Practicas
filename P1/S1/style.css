@@ -120,6 +120,11 @@
     float: right;
     margin: 75px -25px 0;
   }
+  .work-gif{
+    width: 75%;
+    float: left;
+  }
+
   /*experiencia laboral*/
   .section-laboral p{
     padding: 20px;
@@ -143,16 +148,44 @@
     border-width: 0px 20px 0px 0px;
     padding: 50px;
   }
-  .li-trabajos{padding: 50px;}
-  .li-trabajos p{
+  .li-películas{padding: 50px;}
+  .li-películas p{
     padding: 15px;
     font-size: 1.2rem;
     margin-bottom: 5px;
     text-align: center;
     font-weight: bold;
   }
-  .trabajos {width: 100%; background-color: #668f99bb;border-radius: 10px;}
-  .trabajos-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+  .películas {width: 100%; background-color: #668f99bb;border-radius: 10px;}
+  .películas-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+
+  .li-obras{padding: 50px;}
+  .li-obras p{
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .obras {width: 100%; background-color: #668f99bb;border-radius: 10px;}
+  .obras-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+
+.li-discografía{padding: 50px;}
+  .li-discografía p{
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .li-doblajes{padding: 50px;}
+  .li-doblajes p{
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
   
   /*style section contactos*/
   .sub-caja-contact {padding: 50px; background: linear-gradient(to bottom, #669999 0%, #99ccff 95%);}
