@@ -120,10 +120,13 @@
     float: right;
     margin: 75px -25px 0;
   }
+  .sub-acab li{font-size: 1 em;}
   .work-gif{
-    width: 75%;
-    float: left;
+    width: 25%;
+    float: right;
   }
+  header-text {text-align: right;}
+  
 
   /*experiencia laboral*/
   .section-laboral p{
