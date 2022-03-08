@@ -9,16 +9,16 @@
     font-size: 1.5em;
     padding: 5px;
     margin-right: 15px;
-    color: rgb(50 53 149);
+    color: rgb(67, 190, 118);
   }
   /* Style for header*/
   .header {
-    background: linear-gradient(to top, #669999 0%, #ccccff 68%);
+    background: linear-gradient(to top, #4f7e66 0%, #ccffd9 68%);
     padding: 50px 150px;
     /*min-height: 500px;*/
   }
   .sub_container{
-    background: linear-gradient(to bottom, #669999 0%, #99ccff 95%);
+    background: linear-gradient(to bottom, #578b63 0%, #a2f8a9 95%);
     background-attachment: fixed;
     padding: 25px 0px 80px;
   }
@@ -34,7 +34,7 @@
    
   /*styles header text*/
   .header-text{
-    background: rgb(162 165 169 / 50%);
+    background: rgba(126, 167, 148, 0.5);
     padding: 50px;
     text-align: center;
     min-height: 400px;
@@ -43,7 +43,7 @@
   .profile-pic{width:auto; height:300px;}
   /*Style for menu*/
   .menu {
-    box-shadow: 7px 9px 15px 10px rgb(102 153 153 / 40%);
+    box-shadow: 7px 9px 15px 10px rgba(98, 151, 122, 0.4);
     padding: 12px;
     text-align: center;
   }
@@ -55,10 +55,10 @@
   }
   .menu a.active{
     font-weight: bold;
-    border: #bddcd3 solid;
+    border: #b8e0c1 solid;
   }
   .menu a:hover{
-    background-color: #bddcd3;
+    background-color: #bddcc5;
     font-style: italic;
     font-weight: bold;
   }
@@ -91,7 +91,7 @@
     padding: 15px;
     margin-left: 150px;
     margin-top: 25px;
-    background-color: #b7e8e2;
+    background-color: #b7e8bb;
     border-radius: 4px;
     border: none;
     color: #0c0c0c;
@@ -109,9 +109,9 @@
   }
   /*style section formacion*/
   .section-formacion{
-    border-left: rgb(80, 80, 238) solid;
+    border-left: rgb(59, 163, 82) solid;
     border-radius: 15px;
-    box-shadow:5px 5px 15px 10px rgb(80  80 238 / 34%);
+    box-shadow:5px 5px 15px 10px rgba(65, 224, 78, 0.34);
     border-width: 0px 0px 0px 20px;
   }
   .formacion-img{
@@ -136,18 +136,18 @@
     text-align: center;
     font-size: 1.2em;
   }
-  .exp-1 {width: 100%; background-color: #4CAF50; float:left;border-radius: 35px;}
+  .exp-1 {width: 100%; background-color: #4ca3af; float:left;border-radius: 35px;}
   .sub-acad{padding: 25px;}
   .sub-acad hr{   
     width: 70%;
     margin: 15px;
   }
-  .section-trabajo,.empty{background-color:rgba(183, 206, 231, 0.15); min-height: 150px;}
+  .section-trabajo,.empty{background-color:rgba(183, 231, 187, 0.15); min-height: 150px;}
   /*style section trabajos*/
   .section-laboral{
-    border-right: rgb(53, 240, 131) solid;
+    border-right: rgb(60, 191, 243) solid;
     border-radius: 0px 15px 15px 0px;
-    box-shadow:0px 0px 30px rgb(53 240 131 / 81%);;
+    box-shadow:0px 0px 30px rgba(53, 150, 240, 0.81);;
     border-width: 0px 20px 0px 0px;
     padding: 50px;
   }
@@ -159,8 +159,8 @@
     text-align: center;
     font-weight: bold;
   }
-  .películas {width: 100%; background-color: #668f99bb;border-radius: 10px;}
-  .películas-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+  .películas {width: 100%; background-color: #669973bb;border-radius: 10px;}
+  .películas-3 {width: 100%; background-color: #aaecaf;border-radius: 10px;}
 
   .li-obras{padding: 50px;}
   .li-obras p{
@@ -170,8 +170,8 @@
     text-align: center;
     font-weight: bold;
   }
-  .obras {width: 100%; background-color: #668f99bb;border-radius: 10px;}
-  .obras-3 {width: 100%; background-color: #aab4ec;border-radius: 10px;}
+  .obras {width: 100%; background-color: #66996dbb;border-radius: 10px;}
+  .obras-3 {width: 100%; background-color: #aaecba;border-radius: 10px;}
 
 .li-discografía{padding: 50px;}
   .li-discografía p{
@@ -191,21 +191,21 @@
   }
   
   /*style section contactos*/
-  .sub-caja-contact {padding: 50px; background: linear-gradient(to bottom, #669999 0%, #99ccff 95%);}
+  .sub-caja-contact {padding: 50px; background: linear-gradient(to bottom, #66996d 0%, #99ffb8 95%);}
   .section-contact{
     margin-top: -150px;
     min-height: 350px;
     text-align: center;
-    border-top: rgb(51, 204, 204) solid;
+    border-top: rgb(51, 204, 51) solid;
     border-radius: 120px 30px;
-    box-shadow: 5px 5px 20px 15px rgb(51 204 204 / 60%);
+    box-shadow: 5px 5px 20px 15px rgba(51, 204, 76, 0.6);
     border-width: 20px 0px 0px 0px;
   }
   .contact-info {
     float: left;
     margin: auto;
     padding: 50px;
-    border-right: rgb(51, 204, 204) solid;
+    border-right: rgb(51, 204, 64) solid;
   }
   /*styles formulario contacto*/
   .form img{width: 350px;}
@@ -216,17 +216,17 @@
     font-size: 2.5em;
     padding: 8px;
   }
-  i.fab.fa-linkedin {color: rgb(33,115,205);}
+  i.fab.fa-linkedin {color: rgb(33, 205, 85);}
   i.fab.fa-youtube-square {color: rgb(255, 0, 0);}
-  i.fab.fa-facebook-square {color: rgb(26,119,240);}
-  i.fab.fa-twitter {color: rgb(29, 161, 242);}
+  i.fab.fa-facebook-square {color: rgb(26, 240, 79);}
+  i.fab.fa-twitter {color: rgb(29, 242, 75);}
   i.fab.fa-instagram {color: rgb(225,48,108);}
   /*i.fab.fa-github{color: rgb(8, 8, 8);}*/
   
   /*styles button contacto*/
   .button {
     border-radius: 4px;
-    background-color: #4eecab;
+    background-color: #4eecdf;
     border: none;
     color: #0c0c0c;
     text-align: center;
