@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Casio Nea</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Código Javascript -->
+    <script src="index.js" defer></script>
+  </head>
+  <!-- Punto de entrada al código: en cuanto se haga
+       cargado la página se llama a main() -->
+  <body onload= "main()">
+    <div class="calcu">
+      <img style="float:left;" id="logo" src="casio.png" alt="logo de casio"/>
+      <img style="float:right;" id="gris" src="gris.jpg" alt="rectangulo gris"/>
+      <p id="display"></p>
+      <div class="botones">
+        <div class="primera_linea">
+  <!--button type="button" value="3.14159265359" class="digito">π</button>-->
+          <button class="boton" id="clear">AC</button>
+          <button class="cdigito" value="*0.01">%</button>
+          <button class="operacion" value="**">^</button>
+          <button id="borra_ultimo">C</button>
+        </div>
+        <div class="segunda_linea">
+          <button class="cdigito" value="7">7</button>
+          <button class="cdigito" value="8">8</button>
+          <button class="cdigito" value="9">9</button>
+          <button class="operacion" value="/">÷</button>
+        </div>
+        <div class="tercera_linea">
+          <button class="cdigito" value="4">4</button>
+          <button class="cdigito" value="5">5</button>
+          <button class="cdigito" value="6">6</button>
+          <button class="operacion" value="*">x</button>
+        </div>
+        <div class="cuarta_linea">
+          <button class="cdigito" value="1">1</button>
+          <button class="cdigito" value="2">2</button>
+          <button class="cdigito" value="3">3</button>
+          <button class="operacion" value="+">+</button>
+        </div>
+        <div class="quinta_linea">
+          <button class="cdigito" value="0">0</button>
+          <button id= "punto" value=".">.</button>
+          <button id="igual">=</button>
+          <button class="operacion" value="-">-</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
