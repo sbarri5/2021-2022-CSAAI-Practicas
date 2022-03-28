@@ -3,7 +3,7 @@
 ¡ Bienvenid@ a mi Calculadora Casio!
 
 
-    Pincha a este enlace para acceder a la calculadora: 
+    Pincha a este enlace para acceder a la calculadora: https://github.com/sbarri5/2021-2022-CSAAI-Practicas/tree/main/P2
     Es recomentable que el navegador sea Chrome o Firefox.
 
     Realiza las operaciones de: suma, resta, multiplicación, división, porcentajes, y potencias, (incluye decimales).
