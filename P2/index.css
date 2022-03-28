@@ -17,10 +17,10 @@ body {
   .calcu{
       padding-top: 20px;
       padding-bottom: 23px;
-      background-color: rgba(253, 188, 180, 0.4);
+      background-color: rgba(110, 248, 163, 0.4);
       border-radius: 20px 20px 20px 20px;
       border: 8px groove;
-      border-color: rgba(255, 192, 203, 0.6);
+      border-color: rgba(132, 253, 148, 0.6);
       text-align: center;
       margin-top: 60px;
       margin-right: auto;
@@ -29,7 +29,7 @@ body {
   }
   
   p {
-    background-color: rgba(186, 196, 200, 0.8);
+    background-color: rgba(156, 199, 172, 0.8);
     color: rgba(25, 25, 25, 0.9);
     text-align: right;
     font-size: 55px;
@@ -37,7 +37,7 @@ body {
     height: 90px;
     border-radius: 20px 20px 20px 20px;
     border: 6px ridge;
-    border-color: rgba(255, 192, 203, 0.6);
+    border-color: rgba(140, 243, 140, 0.6);
     margin-left: 30px;
     /* Para no salirnos del display */
     white-space: nowrap;
@@ -46,17 +46,17 @@ body {
   }
   
   button{
-      background-color: rgba(250, 192, 203, 0.6);
+      background-color: rgba(143, 248, 168, 0.6);
       color: black;
       padding: 14px;
       font-size: 22px;
       margin: 5px 2px;
       margin-left: 16px;
       border-radius: 20px 20px 20px 20px;
-      border: 3px solid pink;
+      border: 3px solid rgb(96, 194, 101);
       width: 75px;
     }
   
   button:hover{
-    background-color: rgba(254, 192, 203, 1);
+    background-color: rgb(83, 247, 110);
   }
