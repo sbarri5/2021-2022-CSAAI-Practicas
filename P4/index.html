@@ -4,48 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Imágenes</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
-    <title>Filtros</title>
 </head>
-    <body onload="main()">
-        <div class="imagenes" id="original">
-            <img src="imagen1.jpg" class="imag" >
-            <img src="imagen2.jpg" class="imag">
-            <img src="imagen3.jpg" class="imag">
-            <img src="imagen4.jpg" class="imag">
-        </div>
-    <div class="buttons">
-        <button class="modes">Grises</button>
-        <button class="modes">Colores</button>
-        <button class="modes">Espejo</button>
-        <button class="modes">Invertir</button>
-        <button class="modes">Negativo</button>
-        <button class="modes">Sepia</button>
-        <button class="modes">Ruido</button>
+<body>
+    <div id="original">
+            <img src="img1.jpg" class="imagen_inicial">
+            <img src="img2.jpg" class="imagen_inicial">
+            <img src="img3.jpg" class="imagen_inicial">
+    </div> 
+    <div id ="umbralRGB" class="hide">
+        <label for="R">Red</label>
+        <span id="range_R">255</span>
+        <input type="range" id="deslizadorrojo" min="0" max="255" value="255"/>
+        <br>
+        <label for="G">Green</label>
+        <span id="range_G">255</span>
+        <input type="range" id="deslizadorverde" min="0" max="255" value="255"/>
+        <br>
+        <label for="B">Blue</label>
+        <span id="range_B">255</span>
+        <input type="range" id="deslizadorazul" min="0" max="255" value="255"/>
+        
     </div>
-    <div id="deslizadores">
-        <div class="des">
-            <label for="deslizador_R">Red</label>
-            <input name="deslizador_R" type="range" id="deslizador_R" min="0" max="255" value="255"/>
-            <span id="range_R">0</span>
+    <div class="seccion_filtros">
+        <div class="img_manipulada">
+            <div id="opciones" class="filter hide">
+                <button id="color" class="filter_btn">Color</button>
+                <button id="gris" class="filter_btn">Escala grises</button>
+                <button id="noise" class="filter_btn">Ruido</button>
+                <button id="negativo" class="filter_btn">Negativo</button>
+                <button id="invert" class="filter_btn">Invertido</button>
+                <button id="mirror" class="filter_btn">Espejo</button>
+            </div>
+            <h1>Imagen manipulada</h1>
             <br>
-            <label for="deslizador_G">Green</label>
-            <input name="deslizador_G" type="range" id="deslizador_G" min="0" max="255" value="255"/>
-            <span id="range_G">0</span>
-            <br>
-            <label for="deslizador_B">Blue</label>
-            <input name="deslizador_B" type="range" id="deslizador_B" min="0" max="255" value="255"/>
-            <span id="range_B">0</span>
-        </div>
-    </div>
-    <div class="center">
-        <div class="imagenes">
-            <p>Imagen con filtro</p>
             <canvas id="canvas"></canvas>
-        </div>
-   
-</div>
+            <br>
+            <button id="reset" type="reset" class="hide">Reset</button>
+        </div> 
+    </div>   
     
 </body>
 </html>
