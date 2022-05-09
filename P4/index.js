@@ -178,9 +178,9 @@ negative.onclick = () => {
     //-- Obtener el array con todos los píxeles
   let data = imgData.data;
   for (let i = 0, n = data.length; i < n; i += 4) {
-        data[i] = 255 - data[i]
-        data[i+1] = 255 - data[i+1]
-        data[i+2] = 255 - data[i+2]
+        data[i] = 255 - data[i];
+        data[i+1] = 255 - data[i+1];
+        data[i+2] = 255 - data[i+2];
   }
   ctx.putImageData(imgData, 0, 0);
 }
@@ -190,7 +190,7 @@ invert.onclick =()=>{
   ESTADO.show_umbral=false;
   show_umbral();
 
-  ctx.translate(0, canvas.height)
+  ctx.translate(0, canvas.height);
   ctx.scale(1,-1);
   ctx.drawImage(img, 0, 0);
 }
