@@ -55,13 +55,13 @@ img.onload = function () {
 //--Funcion creada para las diferentes elecciones de imagenes 
 
 image1.onclick = () => {
-  img.src="popart1.jpg";
+  img.src="img1.jpg";
 }
 image2.onclick = () => {
-  img.src="popart2.jpg";
+  img.src="img2.jpg";
 }
 image3.onclick = () => {
-  img.src="popart3.jpg";
+  img.src="img3.jpg";
 }
 
 function colors(){
