@@ -134,9 +134,9 @@ color.onclick = () =>{
   show_umbral();
 
   ctx.drawImage(img, 0,0);
-  deslizadorrojo.value=255;
+  deslizadorrojo.value = 255;
   deslizadorverde.value = 255;
-  deslizadorazul.value =255;
+  deslizadorazul.value = 255;
   range_R.innerHTML = deslizadorrojo.value;
   range_G.innerHTML = deslizadorverde.value;
   range_B.innerHTML = deslizadorazul.value;
@@ -157,7 +157,7 @@ gris.onclick = () =>{
     r = data[i];
     g = data[i+1];
     b = data[i+2];
-    brillo = (3 * r + 4 * g + b)/8
+    brillo = (3 * r + 4 * g + b)/8;
     data[i] = brillo;
     data[i+1] = brillo;
     data[i+2] = brillo;
