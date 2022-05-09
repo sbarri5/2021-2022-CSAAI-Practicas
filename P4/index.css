@@ -1,6 +1,6 @@
 * {box-sizing: border-box;margin: 0px;text-align: center;font-family: monospace; font-weight: bold;}
 canvas{
-    background-color: rgb(165, 160, 95);
+    background-color: rgb(236, 201, 102);
     margin: auto;
     display: block;
     border-radius: 2px;
@@ -8,7 +8,7 @@ canvas{
 .filter {
     float: left;
     border: 1px solid #ccc;
-    background-color: #d6d85c;
+    background-color: #f5e2a3;
     width: 20%;
     height: 390px;
 }
@@ -22,15 +22,15 @@ canvas{
     cursor: pointer;
     font-size: 18px;
 } 
-.filter button:hover {background-color: rgb(216, 214, 101);}
-.filter button.active {background-color: rgb(215, 228, 105);}
-.img_manipulada{border: 1px solid #ccc;height: 390px;}
+.filter button:hover {background-color: rgb(250, 228, 189);}
+.filter button.active {background-color: rgb(226, 169, 132);}
+.img_manipulada{border: 1px solid rgb(250, 247, 247);height: 390px;}
 input{cursor: pointer; width: 100%;}
 label{float: left;}
 span{float: right;}
 #umbralRGB{
     position: absolute;
-    background-color: #dddb73;
+    background-color: #f1f1f1;
     color: rgb(10, 10, 10);
     padding: 20px;
     transform: translate(305px,1px); /*translate X e Y*/   
@@ -49,7 +49,7 @@ span{float: right;}
     transform: translateY(8px);
 }
 button:active {
-    box-shadow: 0 3px #425c4c;
+    box-shadow: 0 3px #74624b;
     transform: translateX(3px);
 }
 .hide{
@@ -58,7 +58,7 @@ button:active {
 #reset{
     padding: 8px;
     border-radius: 5px;
-    background-color: rgba(236, 145, 8, 0.726);
+    background-color: rgba(250, 183, 59, 0.726);
     width: 150px;
     font-size: 18px;
 }
