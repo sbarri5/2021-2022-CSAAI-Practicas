@@ -7,7 +7,5 @@ Funcionamiento Básico
 Hay un botón Reset para volver a imagen original.
 
 MEJORAS: 
-        Filtro ruido (Noise) 
+    
         Filtro negativo (Negative)
-        Filtro Invertir (Invert)
-        Filtro Espejo (Mirror)
