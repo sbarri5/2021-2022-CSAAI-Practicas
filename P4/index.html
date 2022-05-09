@@ -15,8 +15,7 @@
             <img src="img3.jpg" class="imagen_inicial">
     </div> 
     <div id ="umbralRGB" class="hide">
-        <label for="R">Red</label>
-        <span id="range_R">255</span>
+        <label for="R">Red</label><span id="range_R">255</span>
         <input type="range" id="deslizadorrojo" min="0" max="255" value="255"/>
         <br>
         <label for="G">Green</label>
@@ -32,13 +31,13 @@
         <div class="img_manipulada">
             <div id="opciones" class="filter hide">
                 <button id="color" class="filter_btn">Color</button>
-                <button id="gris" class="filter_btn">Escala grises</button>
-                <button id="noise" class="filter_btn">Ruido</button>
-                <button id="negativo" class="filter_btn">Negativo</button>
-                <button id="invert" class="filter_btn">Invertido</button>
-                <button id="mirror" class="filter_btn">Espejo</button>
+                <button id="gris" class="filter_btn">Greyscale</button>
+                <button id="noise" class="filter_btn">Noise</button>
+                <button id="negativo" class="filter_btn">Negative</button>
+                <button id="invert" class="filter_btn">Invert</button>
+                <button id="mirror" class="filter_btn">Mirror</button>
             </div>
-            <h1>Imagen manipulada</h1>
+            <h1>Imagen manipulada final</h1>
             <br>
             <canvas id="canvas"></canvas>
             <br>
