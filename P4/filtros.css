@@ -1,14 +1,14 @@
 * {box-sizing: border-box;margin: 0px;text-align: center;font-family: monospace; font-weight: bold;}
 canvas{
-    background-color: rgb(236, 201, 102);
+    background-color: rgb(247, 196, 56);
     margin: auto;
     display: block;
     border-radius: 2px;
 }
 .filter {
     float: left;
-    border: 1px solid #ccc;
-    background-color: #f5e2a3;
+    border: 1px solid rgb(252, 226, 141);
+    background-color: #f5cf53;
     width: 20%;
     height: 390px;
 }
@@ -22,16 +22,16 @@ canvas{
     cursor: pointer;
     font-size: 18px;
 } 
-.filter button:hover {background-color: rgb(250, 228, 189);}
-.filter button.active {background-color: rgb(226, 169, 132);}
-.img_manipulada{border: 1px solid rgb(250, 247, 247);height: 390px;}
+.filter button:hover {background-color: rgb(241, 207, 148);}
+.filter button.active {background-color: rgb(250, 154, 90);}
+.img_manipulada{border: 1px solid rgb(248, 204, 122);height: 390px;}
 input{cursor: pointer; width: 100%;}
 label{float: left;}
 span{float: right;}
 #umbralRGB{
     position: absolute;
-    background-color: #f1f1f1;
-    color: rgb(10, 10, 10);
+    background-color: #f3d6b5;
+    color: rgb(77, 73, 61);
     padding: 20px;
     transform: translate(305px,1px); /*translate X e Y*/   
     font-size: 18px;
@@ -39,17 +39,17 @@ span{float: right;}
 }
 #original img{
     cursor: pointer;
-    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 5px 0 rgba(14, 13, 13, 0.2);
     margin: 15px 30px 20px 30px;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(243, 179, 59);
     border-radius: 8px;
 }
 #original img:active {
     transform: translateY(8px);
 }
 button:active {
-    box-shadow: 0 3px #74624b;
+    box-shadow: 0 3px #977445;
     transform: translateX(3px);
 }
 .hide{
@@ -58,7 +58,7 @@ button:active {
 #reset{
     padding: 8px;
     border-radius: 5px;
-    background-color: rgba(250, 183, 59, 0.726);
+    background-color: rgba(245, 172, 37, 0.726);
     width: 150px;
     font-size: 18px;
 }
