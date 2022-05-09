@@ -1,18 +1,18 @@
-//-- Obtenemos elementos del DOM
+//-- Obtener elementos del DOM
 const canvas = document.getElementById('canvas');
 const imgs = document.getElementsByClassName('imagen_inicial');
 const ctx = canvas.getContext('2d');
-//-- Accedemos al boton
+//-- Acceso al boton
 const color = document.getElementById('color');
 const grises = document.getElementById('gris');
-const ruido = document.getElementById('ruido');
-const espejo = document.getElementById('espejo');
-const invertido = document.getElementById('invertido');
-const negativo = document.getElementById('negativo');
+const noise = document.getElementById('noise');
+const mirror = document.getElementById('mirror');
+const invert = document.getElementById('invert');
+const negative = document.getElementById('negativo');
 const reset = document.getElementById('reset');
 const btn_filtros = document.getElementById("opciones");
 
-//-- Accedemos al deslizador
+//-- Acceso al deslizador
 const deslizadorrojo = document.getElementById('deslizadorrojo');
 const deslizadorverde = document.getElementById('deslizadorverde');
 const deslizadorazul = document.getElementById('deslizadorazul');
@@ -57,12 +57,12 @@ function imgsel(){ //seleccionar y poner imagen en canvas
           ctx.drawImage(img, 0,0);
           btn_filtros.classList.remove("hide");
           reset.classList.remove("hide");
-          negativo.classList.remove('active');
+          negative.classList.remove('active');
           grises.classList.remove('active');
           color.classList.remove('active');
-          ruido.classList.remove('active');
-          espejo.classList.remove('active');
-          invertido.classList.remove('active');
+          noise.classList.remove('active');
+          mirror.classList.remove('active');
+          invert.classList.remove('active');
           ESTADO.show_umbral=false;
           show_umbral();
         }
@@ -166,7 +166,7 @@ gris.onclick = () =>{
 }
 
 //negativo
-negativo.onclick = () => {
+negative.onclick = () => {
   ESTADO.show_umbral=false;
   show_umbral();
 
@@ -186,7 +186,7 @@ negativo.onclick = () => {
 }
 
 //invert
-invertido.onclick =()=>{
+invert.onclick =()=>{
   ESTADO.show_umbral=false;
   show_umbral();
 
@@ -195,7 +195,7 @@ invertido.onclick =()=>{
   ctx.drawImage(img, 0, 0);
 }
 //
-ruido.onclick =()=>{
+noise.onclick =()=>{
   ESTADO.show_umbral=false;
   show_umbral();
 
@@ -215,7 +215,7 @@ ruido.onclick =()=>{
     ctx.putImageData(imgData, 0, 0);
 }
 // espejo
-espejo.onclick=()=>{
+mirror.onclick=()=>{
   ESTADO.show_umbral=false;
   show_umbral();
   
@@ -235,10 +235,10 @@ reset.onclick=()=>{
   canvas.width = img.width;
   canvas.height = img.height;      
   ctx.drawImage(img, 0,0);
-  negativo.classList.remove('active');
+  negative.classList.remove('active');
   grises.classList.remove('active');
   color.classList.remove('active');
-  ruido.classList.remove('active');
-  espejo.classList.remove('active');
-  invertido.classList.remove('active');
+  noise.classList.remove('active');
+  mirror.classList.remove('active');
+  invert.classList.remove('active');
 }
