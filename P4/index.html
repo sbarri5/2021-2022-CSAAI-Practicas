@@ -1,64 +1,51 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="filtros.js" defer></script>
-    <title>  </title>
+    <title>Filtros</title>
 </head>
-<body>
-
+    <body onload="main()">
+        <div class="imagenes" id="original">
+            <img src="img1.jpg" class="imag" >
+            <img src="img2.jpg" class="imag">
+            <img src="img3.jpg" class="imag">
+            
+        </div>
+    <div class="buttons">
+        <button class="modes">Grises</button>
+        <button class="modes">Colores</button>
+        <button class="modes">Espejo</button>
+        <button class="modes">Invertir</button>
+        <button class="modes">Negativo</button>
+        <button class="modes">Sepia</button>
+        <button class="modes">Ruido</button>
+    </div>
+    <div id="deslizadores">
+        <div class="des">
+            <label for="deslizador_R">Red</label>
+            <input name="deslizador_R" type="range" id="deslizador_R" min="0" max="255" value="255"/>
+            <span id="range_R">0</span>
+            <br>
+            <label for="deslizador_G">Green</label>
+            <input name="deslizador_G" type="range" id="deslizador_G" min="0" max="255" value="255"/>
+            <span id="range_G">0</span>
+            <br>
+            <label for="deslizador_B">Blue</label>
+            <input name="deslizador_B" type="range" id="deslizador_B" min="0" max="255" value="255"/>
+            <span id="range_B">0</span>
+        </div>
+    </div>
+    <div class="center">
+        <div class="imagenes">
+            <p>Imagen manipulada</p>
+            <canvas id="canvas"></canvas>
+        </div>
    
-<div class="contenedor">
-    <div class="contenido">
-        <H1>PROCESADOR DE IMAGENES</H1>
-        <div id="original">
-            <p>IMAGEN ORIGINAL</p>
-            <img src="img1.jpg" id="imagesrc">
-        </div>
-        <div id="manipulada">
-        <p>IMAGEN MANIPULADA FINAL</p>
-        <canvas id="canvas"></canvas>
-        </div>
-        
-    </div>
-    <div class="menu">
-        <div class="botones">
-            <br>
-            <button type="button" id ="original">ORIGINAL</button>
-            <br>
-            <button type="button" id ="negative">NEGATIVO</button>
-            <br>
-            <button type="button" id ="color">COLORES</button>
-            <br>
-            <button type="button" id ="mirror">ESPEJO</button>
-            <br>
-            <button type="button" id ="gray">ESCALA DE GRISES</button>
-        </div>
-
-        <div id="deslizador">
-                <p>Establece el umbral de ROJO:</p>
-                <input type="range" id="R" min="0" max="255" value="255"/>
-                <p id="Range_Value_R">00</p>
-                <p>Establece el umbral de VERDE:</p>
-                <input type="range" id="G" min="0" max="255" value="255"/>
-                <p id="Range_Value_G">00</p>
-                <p>Establece el umbral de AZUL:</p>
-                <input type="range" id="B" min="0" max="255" value="255"/>
-                <p id="Range_Value_B">00</p>
-        </div>
-    </div>
-    
-    <div class="opciones">
-        <br>
-        <button id = "image1"><img src="img1.jpg" width="200px"/></button>
-        <button id = "image2"><img src="img2.jpg" width="200px"/></button>
-        <button id = "image3"><img src="img3.jpg" width="200px"/></button>
- 
-    </div>
-
 </div>
+    
 </body>
 </html>
