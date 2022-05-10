@@ -8,4 +8,7 @@ Hay un botón Reset para volver a imagen original.
 
 MEJORAS: 
     
-        Filtro negativo (Negative)
+        Filtro negativo
+        Filtro espejo
+        Filtro invertir
+        Filtro ruido
